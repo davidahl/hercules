@@ -1,9 +1,7 @@
 package main
 
-import (
-	"./api"
-)
+import "example.com/hercules/api"
 
 func main() {
-	api.StartAPI()
+	api.Routes()
 }
